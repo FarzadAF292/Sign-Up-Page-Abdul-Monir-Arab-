@@ -4,10 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link href="/dist/output.css" rel="stylesheet" />
+    <title>Sign Up Page</title>
   </head>
   <body>
-    <h1 class="text-slate-800 text-9xls">Hello W</h1>
+    <div class="grid grid-cols-2">
+      <div class="flex items-center flex-col">
+        <h1 class="text-[32px] font-medium">Welcome back, Seyar</h1>
+        <p class="text-[16px]">Wlcome back! please denter your details</p>
+        <button class="border-2 h-12 w-[350px] rounded-md">
+          Log in with Google
+        </button>
+        <p>or</p>
+        <div>
+          <span>Email</span> <br />
+          <input
+            class="border-2 h-12 w-[350px] rounded-md"
+            type="email"
+            placeholder="Enter your email Address"
+          />
+          <br />
+          <span>Password</span><br />
+          <input
+            class="border-2 h-12 w-[350px] rounded-md"
+            type="password"
+            placeholder="Enter your Password"
+          />
+        </div>
+
+        <div>
+          <div>
+            <input type="checkbox" />
+            <span>Remember for 30 Days</span>
+          </div>
+          <div>
+            <a href="#">Forgot Password</a>
+          </div>
+        </div>
+
+        <button
+          class="border-2 h-12 w-[350px] rounded-md bg-[#111727] text-white"
+        >
+          Log in
+        </button>
+      </div>
+
+      <div
+        class="bg-cover bg-no-repeat h-screen flex items-end"
+        style="background-image: url(/image/Rectangle\ 1.png)"
+      >
+        <p>
+          “ We move 10x faster than our peers and stay consistent. while they're
+          bogged down with design debt, we're releasing new features. ”
+        </p>
+      </div>
+    </div>
   </body>
 </html>
