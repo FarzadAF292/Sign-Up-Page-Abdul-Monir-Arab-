@@ -513,14 +513,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.bottom-4 {
-  bottom: 1rem;
-}
-
 .flex {
   display: flex;
 }
@@ -529,32 +521,20 @@ video {
   display: grid;
 }
 
-.h-auto {
-  height: auto;
+.h-12 {
+  height: 3rem;
 }
 
 .h-screen {
   height: 100vh;
 }
 
-.h-12 {
-  height: 3rem;
-}
-
-.min-h-full {
-  min-height: 100%;
-}
-
-.min-h-screen {
-  min-height: 100vh;
-}
-
 .w-\[350px\] {
   width: 350px;
 }
 
-.flex-auto {
-  flex: 1 1 auto;
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .grid-cols-2 {
@@ -565,18 +545,6 @@ video {
   flex-direction: column;
 }
 
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.flex-wrap-reverse {
-  flex-wrap: wrap-reverse;
-}
-
-.items-start {
-  align-items: flex-start;
-}
-
 .items-end {
   align-items: flex-end;
 }
@@ -585,16 +553,36 @@ video {
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-\[71px\] {
+  gap: 71px;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .rounded-md {
@@ -618,42 +606,91 @@ video {
   background-repeat: no-repeat;
 }
 
-.text-center {
-  text-align: center;
+.p-2 {
+  padding: 0.5rem;
 }
 
-.text-end {
-  text-align: end;
+.p-6 {
+  padding: 1.5rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.p-8 {
+  padding: 2rem;
 }
 
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
+.p-7 {
+  padding: 1.75rem;
 }
 
-.text-\[32px\] {
-  font-size: 32px;
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-\[16px\] {
   font-size: 16px;
 }
 
+.text-\[32px\] {
+  font-size: 32px;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-medium {
   font-weight: 500;
 }
 
-.text-slate-800 {
+.font-normal {
+  font-weight: 400;
+}
+
+.text-\[\#633EBB\] {
   --tw-text-opacity: 1;
-  color: rgb(30 41 59 / var(--tw-text-opacity));
+  color: rgb(99 62 187 / var(--tw-text-opacity));
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
