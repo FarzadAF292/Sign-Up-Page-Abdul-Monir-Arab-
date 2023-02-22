@@ -5,40 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+    </style>
     <title>Sign Up Page</title>
   </head>
-  <body>
+  <body style="font-family: 'Inter', sans-serif">
     <div class="grid grid-cols-2">
       <div class="flex items-center flex-col justify-center">
-        <h1 class="text-[32px] font-medium">Welcome back, Seyar</h1>
-        <p class="text-[16px]">Wlcome back! please denter your details</p>
+        <h1 class="text-[32px] font-medium">Welcome back, Farzad</h1>
+        <p class="text-[16px] text-[#8A8D93]">
+          Welcome back! please enter your detail.
+        </p>
         <div class="pt-6 pb-8">
-          <button class="border-2 h-12 w-[350px] rounded-md">
+          <button
+            class="border-2 h-12 hover:border-slate-500 w-[350px] rounded-md flex items-center justify-center gap-3"
+          >
+            <img class="h-6" src="/image/icons8-google-48.png" alt="google" />
             Log in with Google
           </button>
         </div>
-        <p>or</p>
+        <p class="text-base pb-10">or</p>
         <div>
           <form action="#">
-            <label>Email</label> <br />
-            <input
-              class="border-2 h-12 w-[350px] rounded-md px-6"
-              type="email"
-              placeholder="Enter your email Address"
-            />
-            <br />
-            <label>Password</label> <br />
-            <input
-              class="border-2 h-12 w-[350px] rounded-md px-6"
-              type="password"
-              placeholder="Enter your Password"
-            />
+            <div class="pb-6">
+              <label>Email</label> <br />
+              <input
+                class="border-2 h-12 w-[350px] rounded-md px-6 outline-slate-500"
+                type="email"
+                placeholder="Enter your email Address"
+                required
+              />
+            </div>
+            <div>
+              <label>Password</label> <br />
+              <input
+                class="border-2 h-12 w-[350px] rounded-md px-6 outline-slate-500"
+                type="password"
+                placeholder="Enter your Password"
+                required
+              />
+            </div>
           </form>
         </div>
 
-        <div class="flex items-center gap-[71px] pt-6 pb-8">
-          <div class="text-sm font-medium">
-            <input type="checkbox" class="cursor-pointer" />
+        <div class="flex items-center gap-11 pt-6 pb-8">
+          <div class="text-sm font-medium flex items-centerb gap-2">
+            <input type="checkbox" class="cursor-pointer accent-slate-600" />
             <span>Remember for 30 Days</span>
           </div>
           <div>
@@ -48,18 +61,18 @@
 
         <div class="pb-6">
           <button
-            class="border-2 h-12 w-[350px] rounded-md bg-[#111727] text-white"
+            class="border-2 h-12 w-[350px] rounded-md bg-[#111727] text-white hover:bg-gray-800 hover:border-slate-500"
           >
             Log in
           </button>
         </div>
 
         <div class="flex items-center gap-4 text-base">
-          <a href="#">Don't have an account?</a>
+          <a class="text-[#8A8D93]" href="#">Don't have an account?</a>
           <a href="#" class="text-[#633EBB] underline">Sign up for free</a>
         </div>
 
-        <div class="flex gap-3 text-base pt-10">
+        <div class="flex gap-3 text-base pt-10 text-[#8A8D93]">
           <a href="#"> Privacy & Policy</a>
           <p>|</p>
           <a href="#">Term of Service</a>
@@ -92,9 +105,9 @@
               Business Consultancy
             </p>
 
-            <div class="flex items-center gap-10">
-              <img class="h-4" src="/image/row.png" alt="row 1" />
-              <img class="h-4" src="/image/row 2.png" alt="row 2" />
+            <div class="flex items-center gap-9">
+              <img class="h-7" src="/image/row.png" alt="row 1" />
+              <img class="h-7" src="/image/row 2.png" alt="row 2" />
             </div>
           </div>
         </div>
